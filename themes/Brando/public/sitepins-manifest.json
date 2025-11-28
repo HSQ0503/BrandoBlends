@@ -1,0 +1,10 @@
+{
+  "name": "Brando Blends",
+  "description": "Barber Social Media Mastery - Cut Hair. Create Content. Scale Business.",
+  "cms": "Sitepins",
+  "generator": "nextjs",
+  "html": "<meta name=\"generator\" content=\"Brando Blends",
+  "headers": {
+    "x-powered-by": "Brando Blends"
+  }
+}

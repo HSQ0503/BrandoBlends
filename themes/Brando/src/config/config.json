@@ -1,0 +1,54 @@
+{
+  "site": {
+    "title": "Brando Blends - Cut Hair. Create Content. Scale Business.",
+    "base_url": "https://glasto-nextjs.vercel.app",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.svg",
+    "logo_light": "/images/logo-light.svg",
+    "logo_width": "118",
+    "logo_height": "35",
+    "logo_text": "Brando Blends"
+  },
+
+  "settings": {
+    "pagination": 3,
+    "summary_length": 120,
+    "blog_folder": "blog"
+  },
+
+  "params": {
+    "announcement": {
+      "enable": false,
+      "persist_announcement_closed": false,
+      "content": "Brando Blends - Barber Social Media Mastery"
+    },
+    "demo_contact_form_action": "#",
+    "contact_form_action": "#",
+    "footer_description": "Learn the proven system to scale your barbering business through social media. Get more clients, raise your prices, and become the most known barber in your city.",
+    "copyright": "Copyright {year} By Brando Blends. All Rights Reserved."
+  },
+
+  "subscription": {
+    "enable": true,
+    "form_action": "#"
+  },
+
+  "navigation_button": {
+    "enable": true,
+    "label": "Book a Call",
+    "link": "/demo"
+  },
+
+  "google_tag_manager": {
+    "enable": false,
+    "gtm_id": "GTM-XXXXXX"
+  },
+
+  "metadata": {
+    "meta_author": "Brando Blends",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Learn how to scale your barbering business using social media. Proven scripts, weekly coaching calls, and a structured system to get more clients and increase your income. Join barbers making $10k+/month."
+  }
+}

@@ -1,0 +1,70 @@
+html {
+  @apply text-base-sm md:text-base;
+}
+
+body {
+  @apply bg-body text-text text-base leading-[1.8em] font-normal antialiased;
+  @apply font-primary!;
+}
+
+.h1,
+h1,
+.h2,
+h2,
+.h3,
+h3,
+.h4,
+h4,
+.h5,
+h5,
+.h6,
+h6 {
+  @apply text-text-dark font-semibold;
+}
+
+h1,
+.h1 {
+  @apply text-h1-sm md:text-h1 leading-tight;
+}
+
+h2,
+.h2 {
+  @apply text-h2-sm md:text-h2 leading-tight;
+}
+
+h3,
+.h3 {
+  @apply text-h3-sm md:text-h3 leading-normal;
+}
+
+h4,
+.h4 {
+  @apply text-h4 leading-normal;
+}
+
+h5,
+.h5 {
+  @apply text-h5 leading-normal;
+}
+
+h6,
+.h6 {
+  @apply text-h6 leading-normal;
+}
+
+b,
+strong {
+  @apply font-semibold;
+}
+
+code {
+  @apply after:border-none;
+}
+
+blockquote > p {
+  @apply my-0!;
+}
+
+button {
+  @apply cursor-pointer;
+}

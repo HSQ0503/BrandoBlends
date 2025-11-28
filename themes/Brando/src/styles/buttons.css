@@ -1,0 +1,35 @@
+.btn {
+  @apply inline-block cursor-pointer rounded-full border font-semibold capitalize transition duration-700;
+
+  &:not(.btn-text-primary) {
+    @apply px-6 py-2.5;
+  }
+}
+
+.btn-sm {
+  @apply py-1;
+}
+
+.btn-primary {
+  @apply border-primary bg-primary text-white;
+  &.hover-transparent {
+    @apply hover:border-transparent hover:bg-transparent;
+  }
+  &.hover-text-dark {
+    @apply hover:border-dark hover:bg-dark hover:text-white;
+  }
+}
+
+.btn-text-primary {
+  @apply text-primary border-transparent font-medium;
+}
+
+.btn-outline {
+  @apply border-border text-text-light hover:border-primary hover:bg-primary bg-transparent hover:text-white;
+  &-text-dark {
+    @apply !border-text-dark hover:border-primary hover:bg-primary hover:text-white;
+  }
+  &-primary {
+    @apply border-primary;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "main": [
+    {
+      "name": "Instagram",
+      "icon": "FaInstagram",
+      "link": "https://www.instagram.com/brandoblends/"
+    },
+    {
+      "name": "TikTok",
+      "icon": "FaTiktok",
+      "link": "https://www.tiktok.com/@brandoblends"
+    },
+    {
+      "name": "Facebook",
+      "icon": "FaFacebook",
+      "link": "https://www.facebook.com/brandol.difo/"
+    }
+  ]
+}

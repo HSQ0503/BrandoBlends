@@ -1,0 +1,44 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Investment",
+      "url": "/pricing"
+    },
+    {
+      "name": "Book a Call",
+      "url": "/demo"
+    }
+  ],
+  "footer_quick_links": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "How It Works",
+      "url": "/#features"
+    },
+    {
+      "name": "Investment",
+      "url": "/pricing"
+    },
+    {
+      "name": "Book a Call",
+      "url": "/demo"
+    }
+  ],
+  "footer_other_links": [
+    {
+      "name": "Student Wins",
+      "url": "/reviews"
+    },
+    {
+      "name": "Book a Call",
+      "url": "/demo"
+    }
+  ]
+}
