@@ -42,7 +42,7 @@ export async function POST(request: Request) {
           </div>
 
           <div style="text-align: center; padding: 20px; color: #6b7280; font-size: 12px;">
-            <p>This email was generated automatically from your Brando Blends website.</p>
+            <p>This email was generated automatically from your Brando Blends website. Please do not reply to this email.</p>
           </div>
         </div>
       `,
