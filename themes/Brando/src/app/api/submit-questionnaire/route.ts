@@ -11,7 +11,7 @@ export async function POST(request: Request) {
     // Send notification email to you
     const { data, error } = await resend.emails.send({
       from: 'Brando Blends <noreply@brandoblends.com>',
-      to: ['hsq0503@gmail.com'],
+      to: ['brandoblends@barbercoach.net', 'hsq0503@gmail.com'],
       subject: `New Questionnaire Submission from ${name}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f5f5f5;">
